@@ -71,7 +71,9 @@ button:hover
     transition: 300ms;
 }
 
-.operator:hover
+.operatorsp:hover
 {
     color: white;
+    background-color: green;
+    box-shadow: #4de61f44 3px 3px 3px;
 }
