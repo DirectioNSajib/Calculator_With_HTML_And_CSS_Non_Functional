@@ -7,10 +7,19 @@ input
     border: none;
     font-size: 30px;
     color: rgb(0, 0, 0);
+    margin-bottom: 40px;
 }
 
+.mmdiv
+{
+    margin: auto;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
 .maindiv
 {
+    margin-top: 30px;
     display: flex;
     height: 10px;
     width: 50px;
@@ -21,7 +30,7 @@ input
 .subdiv
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 button
@@ -32,6 +41,9 @@ button
     padding: 5px;
     border: none;
     border-radius: 15px;
+    box-shadow: #e66f1f44 3px 2px 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
 
 }
 
@@ -42,4 +54,24 @@ button
     margin: auto;
 }
 
+.operatorsp
+{
+    color: white;
+    background-color: #e66e1f;
+}
 
+button:hover
+{
+
+    border-radius: 10px;
+    box-shadow: #e66f1f44 3px 2px 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: rgb(255, 0, 0);
+    transition: 300ms;
+}
+
+.operator:hover
+{
+    color: white;
+}
