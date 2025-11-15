@@ -1,0 +1,45 @@
+input
+{
+    padding: 10px;
+    align-items: end;
+    text-align: right;
+    width: 210px;
+    border: none;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.maindiv
+{
+    display: flex;
+    height: 10px;
+    width: 50px;
+    margin: auto;
+    border-color: black;
+}
+
+.subdiv
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+button
+{
+    height: 30px;
+    width: 50px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.operator
+{
+    color: rgb(255, 81, 0);
+    padding: auto;
+    margin: auto;
+}
+
+
